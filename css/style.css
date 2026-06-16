@@ -63,11 +63,11 @@ body {
   font-family: 'Noto Sans SC', sans-serif; letter-spacing: 0.06em; line-height: 1.1;
 }
 .hero-name-en {
-  font-size: 14px; font-weight: 300; color: #3E4155;
+  font-size: 14px; font-weight: 300; color: #8C93B8;
   letter-spacing: 0.28em; text-transform: uppercase; margin-top: 8px;
 }
 .hero-desc {
-  font-size: 14px; color: #6A6E88; margin-top: 24px; line-height: 1.9;
+  font-size: 14px; color: #9097B8; margin-top: 24px; line-height: 1.9;
 }
 .hero-stats {
   display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
@@ -75,7 +75,7 @@ body {
 }
 .stat { background: var(--dark); padding: 16px 18px; }
 .stat-val { font-size: 20px; font-weight: 600; color: #fff; font-family: 'Inter', sans-serif; }
-.stat-label { font-size: 12px; color: #3E4155; margin-top: 3px; letter-spacing: 0.06em; }
+.stat-label { font-size: 12px; color: #6A7099; margin-top: 3px; letter-spacing: 0.06em; }
 
 .hero-right {
   background: #fff;
@@ -137,10 +137,10 @@ body {
   display: flex; align-items: center; gap: 8px; line-height: 1.6;
 }
 .role-tag::before { content: ''; width: 4px; height: 4px; border-radius: 50%; background: var(--purple); flex-shrink: 0; }
-.role-tag.dim::before { background: #2A2D3E; }
-.role-tag.dim { color: #2A2D3E; }
+.role-tag.dim::before { background: #555878; }
+.role-tag.dim { color: #555878; }
 
-.project-status { font-size: 12px; color: #3A3D52; margin-top: 20px; line-height: 1.8; }
+.project-status { font-size: 12px; color: #6A7099; margin-top: 20px; line-height: 1.8; }
 
 /* ── RESULT BAR ── */
 .result-bar {
@@ -155,7 +155,7 @@ body {
 .r-val { font-size: 18px; font-weight: 600; color: var(--purple); font-family: 'Inter', sans-serif; }
 .r-val.purple { color: var(--purple); }
 .result-bar:not(.light) .r-val { color: #fff; }
-.r-label { font-size: 12px; color: #3E4155; margin-top: 3px; letter-spacing: 0.08em; text-transform: uppercase; }
+.r-label { font-size: 12px; color: #6A7099; margin-top: 3px; letter-spacing: 0.08em; text-transform: uppercase; }
 .result-bar.light .r-label { color: #8888AA; }
 .result-div { width: 0.5px; height: 32px; background: #2A2D3E; flex-shrink: 0; }
 .result-bar.light .result-div { background: #C5B8FF; }
@@ -169,7 +169,7 @@ body {
   text-transform: uppercase; margin: 28px 0 14px;
   display: flex; align-items: center; gap: 12px;
 }
-.dark .content-heading { color: #4A4D62; }
+.dark .content-heading { color: #666B88; }
 .content-heading::after { content: ''; flex: 1; height: 0.5px; background: var(--border); }
 .dark .content-heading::after { background: var(--border-dark); }
 
@@ -187,7 +187,7 @@ body {
   font-size: 14px; color: var(--text-secondary); margin-top: 8px; line-height: 1.6;
   padding-left: 4px; border-left: 2px solid var(--purple);
 }
-.dark .img-caption { color: #4A4D62; }
+.dark .img-caption { color: #7C8099; }
 
 .img-row { display: flex; gap: 16px; margin-bottom: 24px; }
 
@@ -239,7 +239,7 @@ body {
 .ps-num { font-size: 12px; color: var(--purple); font-weight: 600; letter-spacing: 0.1em; margin-bottom: 6px; }
 .ps-title { font-size: 15px; font-weight: 500; color: #fff; margin-bottom: 4px; }
 .section:not(.dark) .ps-title { color: var(--text-primary); }
-.ps-text { font-size: 14px; color: #4A4D62; line-height: 1.6; }
+.ps-text { font-size: 14px; color: #9097B8; line-height: 1.6; }
 .section:not(.dark) .ps-text { color: var(--text-secondary); }
 .process-arrow { display: flex; align-items: center; color: var(--purple); font-size: 18px; flex-shrink: 0; padding-top: 4px; }
 
@@ -255,7 +255,7 @@ body {
 .section:not(.dark) .track-div { background: var(--border); }
 .track-title { font-size: 15px; font-weight: 500; color: #fff; margin-bottom: 6px; }
 .section:not(.dark) .track-title { color: var(--text-primary); }
-.track-text { font-size: 14px; color: #4A4D62; line-height: 1.7; }
+.track-text { font-size: 14px; color: #9097B8; line-height: 1.7; }
 .section:not(.dark) .track-text { color: var(--text-secondary); }
 
 /* ── FOOTER ── */
@@ -263,8 +263,8 @@ body {
   background: var(--dark); padding: 40px 48px;
   display: flex; justify-content: space-between; align-items: center;
 }
-.footer-name { font-size: 14px; color: #3E4155; letter-spacing: 0.1em; }
-.footer-contact { font-size: 14px; color: #2A2D3E; }
+.footer-name { font-size: 14px; color: #7C8099; letter-spacing: 0.1em; }
+.footer-contact { font-size: 14px; color: #555878; }
 
 /* ── PRINT / PDF ── */
 @media print {
