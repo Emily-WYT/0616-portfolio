@@ -443,3 +443,22 @@ body {
   text-transform: uppercase;
   margin-right: 8px;
 }
+
+.app-note {
+  margin: 0 0 16px;
+  padding: 10px 14px;
+  background: rgba(124,92,246,0.06);
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+.dark .app-note { background: rgba(124,92,246,0.1); color: #9097B8; }
+.app-note-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--purple);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
