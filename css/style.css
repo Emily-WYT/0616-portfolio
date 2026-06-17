@@ -405,3 +405,41 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.project-context {
+  margin: 0 0 20px;
+  padding: 14px 18px;
+  border-left: 2px solid var(--purple);
+  background: var(--gray100);
+  border-radius: 0 6px 6px 0;
+}
+.dark .project-context { background: rgba(255,255,255,0.04); }
+.project-context p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin: 0;
+}
+.project-context strong { color: var(--text-primary); font-weight: 500; }
+.dark .project-context p { color: #9097B8; }
+.dark .project-context strong { color: #C8CCDD; }
+
+.decision-note {
+  margin: 10px 0 24px;
+  padding: 12px 16px;
+  background: rgba(124,92,246,0.06);
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+.dark .decision-note { background: rgba(124,92,246,0.1); color: #9097B8; }
+.decision-label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--purple);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
