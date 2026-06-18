@@ -497,6 +497,27 @@ body {
 
 .dark .content-card-text { color: #9097B8; }
 
+/* ── Hero PDF Button ── */
+.hero-pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid var(--purple);
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--purple);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  transition: background 0.2s, color 0.2s;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+.hero-pdf-btn:hover {
+  background: var(--purple);
+  color: #fff;
+}
+
 /* ── Mobile Tip ── */
 .mobile-tip {
   display: none;

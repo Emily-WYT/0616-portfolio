@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>王雨桐 · UX Portfolio</title>
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/powerdrill.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
@@ -24,7 +25,7 @@
     <a href="#project-ai">AI改版</a>
     <a href="#project-v3">V3.x升级</a>
     <a href="#project-components">组件化</a>
-    <a href="project-powerdrill.html">Powerdrill</a>
+    <a href="#project-powerdrill">Powerdrill</a>
     <a href="pdf/portfolio.pdf" class="nav-pdf" target="_blank">下载PDF</a>
   </div>
 </nav>
@@ -42,6 +43,7 @@
       <div class="stat"><div class="stat-val">46</div><div class="stat-label">半年独立承接需求</div></div>
       <div class="stat"><div class="stat-val">AI驱动</div><div class="stat-label">重点项目原型验证</div></div>
     </div>
+    <a href="pdf/portfolio.pdf" target="_blank" class="hero-pdf-btn">查看完整版作品集 PDF →</a>
   </div>
   <div class="hero-right">
     <div class="toc-label">目录</div>
@@ -61,7 +63,7 @@
       <span class="toc-num">04</span>
       <div class="toc-body"><div class="toc-title">PC&APP 设计组件化</div><div class="toc-sub">115+组件 · 设计规范 · 效率提升</div><span class="toc-tag">设计体系</span></div>
     </a>
-    <a href="project-powerdrill.html" class="toc-item">
+    <a href="#project-powerdrill" class="toc-item">
       <span class="toc-num">05</span>
       <div class="toc-body"><div class="toc-title">Powerdrill · AI SaaS</div><div class="toc-sub">色彩重构 · 数据驱动 · 端到端独立交付</div><span class="toc-tag">初创公司 · 国际化</span></div>
     </a>
@@ -428,6 +430,313 @@
       <p>主动参与Zero项目组的产品共建，系统整理设计师视角的使用问题与优化建议，提出<strong>50+条反馈</strong>并推动<strong>24项功能</strong>落地修复。参与体验设计部与Zero项目组联合分享会，输出使用报告。这不只是「用工具」——而是以设计师身份推动外部工具产品迭代，体现了跨团队协作与影响力。</p>
     </div>
 
+  </div>
+</section>
+
+<!-- POWERDRILL -->
+<section class="section dark" id="project-powerdrill">
+  <div class="section-inner">
+    <div class="project-header">
+      <div class="project-num">05</div>
+      <div class="project-meta">
+        <div class="project-label">AI SaaS · 初创公司 · 国际化</div>
+        <div class="project-title">Powerdrill</div>
+        <div class="project-subtitle">从0到120万用户的全链路AI产品设计</div>
+        <div class="project-roles">
+          <span class="project-role">国际化产品</span>
+          <span class="project-role">AI 0→1</span>
+          <span class="project-role">设计系统</span>
+          <span class="project-role dim">数据驱动迭代</span>
+          <span class="project-role dim">端到端独立交付</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pd-section pd-light">
+  <div class="pd-inner">
+    <div class="pd-section-label">Overview</div>
+    <h2 class="pd-section-title">项目背景</h2>
+    <p class="pd-body">Powerdrill AI 是一款专注于个人和企业数据集的 AI SaaS 服务，通过自然语言让用户与数据集交互，无需编写代码，即可完成从基础问答到深入 BI 分析等任务。随着产品策略逐渐从 ToC 转向 ToB，我们重新设计了 UI 系统，以塑造专业可信的品牌形象并应对企业定制需求。</p>
+    <div class="img-block full" style="margin-top:28px;">
+      <div class="img-wrap-full light">
+        <img src="images/pd/p06.jpg" alt="旧版Powerdrill界面" loading="lazy">
+      </div>
+      <div class="img-caption">旧版Powerdrill界面——高饱和紫色覆盖大面积导航与背景区域，ToC阶段的设计语言</div>
+    </div>
+  </div>
+</section>
+
+<section class="pd-section pd-dark">
+  <div class="pd-inner">
+    <div class="pd-section-label">Part A · 超级个体证明</div>
+    <h2 class="pd-section-title">推翻的不是方案，是底层假设</h2>
+    <p class="pd-body">Powerdrill在ToC阶段的设计语言活泼鲜艳，品牌色高饱和度覆盖超过50%界面面积。产品战略转向ToB后，这套语言直接带来三个危机：视觉疲劳损伤专业感、企业换肤导致可访问性崩溃、品牌色过载压制了内容本身。</p>
+    <div class="content-heading">关键决策</div>
+    <div class="pd-decision">
+      <div class="pd-decision-label">主动发起，非执行指令</div>
+      <p>旧有修补思路是优化换肤规则——沿用原有色彩架构，调整色阶映射。我判断这个方向治标不治本，根本问题不是"色值选错了"，而是<strong>品牌色承担了错误的角色</strong>。于是我主动提出重构整套色彩权重逻辑。</p>
+    </div>
+    <div class="content-heading">三项核心改变</div>
+    <div class="pd-cards-3">
+      <div class="pd-card">
+        <div class="pd-card-num">01</div>
+        <div class="pd-card-title">色彩权重重新分配</div>
+        <div class="pd-card-text">引入中性色板覆盖超过80%界面面积，品牌色退出"装饰背景"角色，回归"功能性指引"本质</div>
+      </div>
+      <div class="pd-card">
+        <div class="pd-card-num">02</div>
+        <div class="pd-card-title">品牌色与功能色分离</div>
+        <div class="pd-card-text">成功、警告、错误等功能色设为不可改的状态色；企业定制仅允许替换主品牌色，占比从约50%压缩至不足5%</div>
+      </div>
+      <div class="pd-card">
+        <div class="pd-card-num">03</div>
+        <div class="pd-card-title">暗黑模式范式转换</div>
+        <div class="pd-card-text">从"投影深度"到"发光层级"——抛弃对投影的模仿，转向以亮度差替代阴影差，基于背景色明度建立高程系统</div>
+      </div>
+    </div>
+    <div class="img-block full">
+      <div class="img-wrap-full">
+        <img src="images/pd/p08.jpg" alt="品牌色策略优化" loading="lazy">
+      </div>
+      <div class="img-caption">品牌色策略优化：从视觉冲击到体验可控——换肤规则从10个色阶的完整色板简化为仅需定义3个核心色值</div>
+    </div>
+    <div class="img-row" style="margin-top:16px;">
+      <div class="img-block half">
+        <div class="img-wrap">
+          <img src="images/pd/p09.jpg" alt="色彩系统重构" loading="lazy">
+        </div>
+        <div class="img-caption">色彩权重重新分配——旧版品牌色占比 vs 新版，及企业皮肤定制需要变动的色彩范围对比</div>
+      </div>
+      <div class="img-block half">
+        <div class="img-wrap">
+          <img src="images/pd/p10.jpg" alt="新旧版界面对比" loading="lazy">
+        </div>
+        <div class="img-caption">新旧版界面效果对比——左侧旧版本，右侧新版本，整体基调从鲜艳转向冷静专业</div>
+      </div>
+    </div>
+    <div class="img-block full">
+      <div class="img-wrap-full">
+        <img src="images/pd/p11.jpg" alt="暗黑模式" loading="lazy">
+      </div>
+      <div class="img-caption">暗黑模式——从"投影深度"到"发光层级"的范式转换，用亮度差替代阴影差建立视觉层级</div>
+    </div>
+    <div class="pd-result-bar">
+      <div class="pd-result-metric"><div class="pd-r-val">70%↑</div><div class="pd-r-label">企业换肤维护效率</div></div>
+      <div class="pd-result-div"></div>
+      <div class="pd-result-metric"><div class="pd-r-val">50% → 5%</div><div class="pd-r-label">品牌色界面占比</div></div>
+      <div class="pd-result-div"></div>
+      <div class="pd-result-metric"><div class="pd-r-val">10色阶 → 3色值</div><div class="pd-r-label">换肤定制复杂度</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="pd-section pd-light">
+  <div class="pd-inner">
+    <div class="pd-section-label">Part B · 数据驱动决策</div>
+    <h2 class="pd-section-title">数据告诉我删掉这个步骤，而不是优化它</h2>
+    <p class="pd-body">Dataset是Powerdrill的核心使用单元，却存在多个入口、体验割裂的问题。旧流程要求用户先命名、再描述、再上传文件，共5步。我通过主动分析埋点数据，发现了问题的根源。</p>
+    <div class="content-heading">数据发现</div>
+    <div class="img-block full">
+      <div class="img-wrap-full light">
+        <img src="images/pd/p16.jpg" alt="首页漏斗数据" loading="lazy">
+      </div>
+      <div class="img-caption">首页落地漏斗数据——新功能上线后埋点揭示曝光率极低，AA Dataset入口点击率仅4.80%</div>
+    </div>
+    <div class="img-block full">
+      <div class="img-wrap-full light">
+        <img src="images/pd/p32.jpg" alt="Dataset命名分析" loading="lazy">
+      </div>
+      <div class="img-caption">对用户已创建Dataset名称的聚类分析——45%无意义命名 + 33%简写 + 18%与文件名相似，合计96%用户无法提供有效命名</div>
+    </div>
+    <div class="pd-decision">
+      <div class="pd-decision-label">关键判断</div>
+      <p>96%的用户无法提供有效命名，说明"命名"这个步骤本身就是错的设计决策。正确答案不是"让命名步骤更容易"，而是<strong>直接删掉它</strong>，改由AI根据文件内容自动生成名称和描述。</p>
+    </div>
+    <div class="content-heading">流程简化</div>
+    <div class="img-block full">
+      <div class="img-wrap-full light">
+        <img src="images/pd/p33.jpg" alt="旧流程vs新流程" loading="lazy">
+      </div>
+      <div class="img-caption">Dataset创建流程从5步压缩至2步——旧：命名→描述→上传→状态管理→完成；新：上传文件→系统自动创建</div>
+    </div>
+    <div class="img-block full">
+      <div class="img-wrap-full light">
+        <img src="images/pd/p34.jpg" alt="上传状态设计" loading="lazy">
+      </div>
+      <div class="img-caption">系统化的状态设计——定义上传过程中所有可能状态，为每种状态设计清晰的视觉反馈和操作引导</div>
+    </div>
+    <div class="pd-insight">
+      <div class="pd-insight-icon">◈</div>
+      <div>
+        <div class="pd-insight-title">「创建」与「管理」必须分离</div>
+        <div class="pd-insight-text">旧架构把管理行为（重命名、删除、描述）耦合进创建流程，是冗长的根源。创建场景极度聚焦，管理场景按需触达，两者分离后互不干扰，用户心智模型清晰。</div>
+      </div>
+    </div>
+    <div class="pd-result-bar light">
+      <div class="pd-result-metric"><div class="pd-r-val">57%+</div><div class="pd-r-label">用户操作负荷降低</div></div>
+      <div class="pd-result-div"></div>
+      <div class="pd-result-metric"><div class="pd-r-val">5步 → 2步</div><div class="pd-r-label">Dataset创建流程</div></div>
+      <div class="pd-result-div"></div>
+      <div class="pd-result-metric"><div class="pd-r-val">AI自动生成</div><div class="pd-r-label">数据集名称与描述</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="pd-section pd-dark">
+  <div class="pd-inner">
+    <div class="pd-section-label">Part C · 端到端独立能力</div>
+    <h2 class="pd-section-title">从设计稿到线上发布，中间没有等待</h2>
+    <p class="pd-body">Powerdrill官网是SEO驱动的内容阵地，每天需要大量内容上线。旧工作流：设计出稿→运营确认→工程师开发→设计走查→等待统一发版，上线周期以周计。我独立搭建了一套彻底改变协作方式的动态发布系统。</p>
+    <div class="content-heading">工具链</div>
+    <div class="pd-toolchain">
+      <div class="pd-tool"><div class="pd-tool-name">Figma</div><div class="pd-tool-role">设计 / 架构</div></div>
+      <div class="pd-tool-arrow">→</div>
+      <div class="pd-tool"><div class="pd-tool-name">Framer</div><div class="pd-tool-role">构建 / 部署</div></div>
+      <div class="pd-tool-arrow">+</div>
+      <div class="pd-tool"><div class="pd-tool-name">After Effects</div><div class="pd-tool-role">动效</div></div>
+      <div class="pd-tool-arrow">+</div>
+      <div class="pd-tool"><div class="pd-tool-name">Cursor AI</div><div class="pd-tool-role">代码实现</div></div>
+    </div>
+    <div class="img-block full">
+      <div class="img-wrap-full">
+        <img src="images/pd/p36.jpg" alt="Powerdrill官网全貌" loading="lazy">
+      </div>
+      <div class="img-caption">从设计到实现的全流程独立构建——独立设计师 &amp; 前端实现者</div>
+    </div>
+    <div class="img-block full">
+      <div class="img-wrap-full">
+        <img src="images/pd/p37.jpg" alt="新旧协作流程对比" loading="lazy">
+      </div>
+      <div class="img-caption">新协作流程 vs 旧协作流程——上线周期从周级缩短至分钟级，日均发布量达10条以上</div>
+    </div>
+    <div class="img-row">
+      <div class="img-block half">
+        <div class="img-wrap">
+          <img src="images/pd/p39.jpg" alt="Feature页面动态内容" loading="lazy">
+        </div>
+        <div class="img-caption">Feature页面核心模块——所有内容均通过CMS后台动态配置，实现内容与样式分离</div>
+      </div>
+      <div class="img-block half">
+        <div class="img-wrap">
+          <img src="images/pd/p40.jpg" alt="CMS配置系统" loading="lazy">
+        </div>
+        <div class="img-caption">驱动内容动态发布的CMS配置——设计侧专注迭代模板，运营侧随时发布新内容</div>
+      </div>
+    </div>
+    <div class="img-block full">
+      <div class="img-wrap-full">
+        <img src="images/pd/p44.jpg" alt="AI赋能功能实现" loading="lazy">
+      </div>
+      <div class="img-caption">AI赋能三项能力——自动生成Blog目录、主题切换控制系统、数据动画效果</div>
+    </div>
+    <div class="pd-result-bar">
+      <div class="pd-result-metric"><div class="pd-r-val">周级 → 分钟级</div><div class="pd-r-label">官网内容上线周期</div></div>
+      <div class="pd-result-div"></div>
+      <div class="pd-result-metric"><div class="pd-r-val">10条/日</div><div class="pd-r-label">日均发布量</div></div>
+      <div class="pd-result-div"></div>
+      <div class="pd-result-metric"><div class="pd-r-val">1人</div><div class="pd-r-label">前端协助（仅域名映射）</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="pd-section pd-relyt">
+  <div class="pd-inner">
+    <div class="pd-section-label">Part D · Relyt 官网信息架构</div>
+    <h2 class="pd-section-title">技术术语是墙，好的设计把它变成门</h2>
+    <p class="pd-body" style="color:#A0A8C8;">Relyt是一个面向企业和AI应用的数据云平台（AI-ready Data Cloud）。技术壁垒极高——向量数据库、Serverless架构、Hybrid Search，每一个概念对非技术决策者都是认知负担。V1官网陷入"自我叙述"的陷阱，核心矛盾不是视觉问题，而是叙事逻辑问题。</p>
+    <div class="pd-decision dark-variant">
+      <div class="pd-decision-label">V1官网的失败</div>
+      <p>V1假设用户和自己一样理解这些技术术语的价值。我提出从根本上重构叙事顺序，把官网从"我有什么功能"改写成"我如何为你解决问题"。</p>
+    </div>
+    <div class="img-block full" style="margin-top:24px;">
+      <div class="img-wrap-full">
+        <img src="images/pd/p47.jpg" alt="Relyt V1 vs V2" loading="lazy">
+      </div>
+      <div class="img-caption" style="color:#6A7099;">V1版本（左）vs V2版本（右）——从技术功能堆叠到价值叙事重构</div>
+    </div>
+    <div class="pd-compare-table">
+      <div class="pd-compare-header">
+        <div></div>
+        <div class="pd-compare-col-label">V1</div>
+        <div class="pd-compare-col-label highlight">V2</div>
+      </div>
+      <div class="pd-compare-row">
+        <div class="pd-compare-key">逻辑起点</div>
+        <div class="pd-compare-old">产品功能罗列</div>
+        <div class="pd-compare-new">用户痛点切入</div>
+      </div>
+      <div class="pd-compare-row">
+        <div class="pd-compare-key">核心结构</div>
+        <div class="pd-compare-old">特性堆叠</div>
+        <div class="pd-compare-new">定位 → 场景 → 信任</div>
+      </div>
+      <div class="pd-compare-row">
+        <div class="pd-compare-key">技术概念</div>
+        <div class="pd-compare-old">直接暴露</div>
+        <div class="pd-compare-new">翻译为可感知利益</div>
+      </div>
+      <div class="pd-compare-row">
+        <div class="pd-compare-key">证据形式</div>
+        <div class="pd-compare-old">无</div>
+        <div class="pd-compare-new">客户案例 + 可量化数据</div>
+      </div>
+    </div>
+    <div class="pd-cards-3">
+      <div class="pd-card dark-card">
+        <div class="pd-card-num">①</div>
+        <div class="pd-card-title">一个核心概念串联所有优势</div>
+        <div class="pd-card-text">以"AI-ready Data Cloud"作为唯一定位锚点，回答是什么、为什么需要、差异化在哪</div>
+      </div>
+      <div class="pd-card dark-card">
+        <div class="pd-card-num">②</div>
+        <div class="pd-card-title">建立技术-设计翻译机制</div>
+        <div class="pd-card-text">主动发起与产品经理深度沟通，用"打个比方"理解技术概念，再用流程图语言转化为可视化叙事</div>
+      </div>
+      <div class="pd-card dark-card">
+        <div class="pd-card-num">③</div>
+        <div class="pd-card-title">让图片独立讲故事</div>
+        <div class="pd-card-text">图片必须独立传达核心信息，文字只做补充而非解释。配图体系沉淀为标准，用于所有Use Cases和Customer Stories</div>
+      </div>
+    </div>
+    <div class="img-row">
+      <div class="img-block half">
+        <div class="img-wrap dark-wrap">
+          <img src="images/pd/p48.jpg" alt="V1 vs V2首页模块标题对比" loading="lazy">
+        </div>
+        <div class="img-caption" style="color:#6A7099;">V1 vs V2首页模块标题对比——从情感化承诺转向"价值承诺+证据"结构</div>
+      </div>
+      <div class="img-block half">
+        <div class="img-wrap dark-wrap">
+          <img src="images/pd/p50.jpg" alt="V1 vs V2配图对比" loading="lazy">
+        </div>
+        <div class="img-caption" style="color:#6A7099;">V1配图 vs V2配图——从"需要先读字再读图"到"图片独立讲完整故事"</div>
+      </div>
+    </div>
+    <div class="img-block full">
+      <div class="img-wrap-full">
+        <img src="images/pd/p51.jpg" alt="标准化配图设计体系" loading="lazy">
+      </div>
+      <div class="img-caption" style="color:#6A7099;">标准化配图设计体系——统一视觉语言与叙事结构，快速生成风格一致的配图</div>
+    </div>
+    <div class="img-block full">
+      <div class="img-wrap-full">
+        <img src="images/pd/p52.jpg" alt="Relyt官网最终展示" loading="lazy">
+      </div>
+      <div class="img-caption" style="color:#6A7099;">Relyt官网最终效果——V2成功将官网从"技术推销员"转变为"用户价值的共建者"</div>
+    </div>
+  </div>
+</section>
+
+<section class="pd-section pd-dark">
+  <div class="pd-inner">
+    <div class="pd-ending">
+      <div class="pd-ending-tag">Reflection</div>
+      <blockquote class="pd-quote">
+        Powerdrill教会我什么是真正的"超级个体"：不是一个人做所有事，而是在任何一个环节都能<em>看到系统性问题并主动重构它</em>——无论那个问题是色彩架构、交互流程、团队协作方式，还是一整套说服逻辑。
+      </blockquote>
+    </div>
   </div>
 </section>
 
