@@ -80,7 +80,11 @@ body {
 .hero-right {
   background: #fff;
   padding: 72px 56px;
-  display: flex; flex-direction: column; justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  border-bottom: 0.5px solid var(--border);
 }
 .toc-label {
   font-size: 12px; letter-spacing: 0.16em; color: var(--text-secondary);
