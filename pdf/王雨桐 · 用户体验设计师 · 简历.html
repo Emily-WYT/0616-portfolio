@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///Users/wangyutong.72/Desktop/resume_wangyutong.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>王雨桐 · 用户体验设计师 · 简历</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --purple: #6B4EFF;
+    --purple-light: #EEE9FF;
+    --dark: #0D0E14;
+    --text: #1A1B2E;
+    --text-sub: #5A5D72;
+    --text-dim: #8C8FA8;
+    --border: #E2E3ED;
+    --bg: #FAFAFA;
+  }
+
+  body {
+    font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .page {
+    max-width: 820px;
+    margin: 32px auto;
+    background: #fff;
+    box-shadow: 0 2px 24px rgba(0,0,0,0.07);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: var(--dark);
+    padding: 40px 48px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 32px;
+  }
+
+  .header-left {}
+
+  .name {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.08em;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .title {
+    font-size: 13px;
+    color: #8C93B8;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .tagline {
+    font-size: 13px;
+    color: #6A7099;
+    line-height: 1.8;
+    max-width: 500px;
+  }
+
+  .header-right {
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  .contact-item {
+    font-size: 13px;
+    color: #6A7099;
+    margin-bottom: 5px;
+    letter-spacing: 0.02em;
+  }
+
+  .contact-item a {
+    color: #8C93B8;
+    text-decoration: none;
+  }
+
+  /* ── HIGHLIGHTS ── */
+  .highlights {
+    background: #131420;
+    padding: 20px 48px;
+    display: flex;
+    gap: 0;
+    border-top: 0.5px solid #1E2030;
+  }
+
+  .hl-item {
+    flex: 1;
+    padding: 0 20px 0 0;
+    border-right: 0.5px solid #1E2030;
+    margin-right: 20px;
+  }
+  .hl-item:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+
+  .hl-val {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Inter', Arial, sans-serif;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+
+  .hl-label {
+    font-size: 11px;
+    color: #4A4D62;
+    margin-top: 3px;
+    letter-spacing: 0.06em;
+  }
+
+  /* ── BODY ── */
+  .body {
+    padding: 36px 48px;
+  }
+
+  /* ── SECTION ── */
+  .section {
+    margin-bottom: 32px;
+  }
+  .section:last-child { margin-bottom: 0; }
+
+  .section-title {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    color: var(--purple);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 0.5px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-title::after {
+    content: '';
+    flex: 1;
+    height: 0.5px;
+    background: var(--border);
+    display: none;
+  }
+
+  /* ── 工作经历条目 ── */
+  .job {
+    margin-bottom: 24px;
+  }
+  .job:last-child { margin-bottom: 0; }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3px;
+    gap: 12px;
+  }
+
+  .job-company {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .job-period {
+    font-size: 12px;
+    color: var(--text-dim);
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-family: 'Inter', Arial, sans-serif;
+  }
+
+  .job-role {
+    font-size: 13px;
+    color: var(--purple);
+    font-weight: 500;
+    margin-bottom: 10px;
+    letter-spacing: 0.02em;
+  }
+
+  .job-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .job-items li {
+    font-size: 13.5px;
+    color: var(--text-sub);
+    line-height: 1.75;
+    padding-left: 14px;
+    position: relative;
+  }
+
+  .job-items li::before {
+    content: '·';
+    position: absolute;
+    left: 0;
+    color: var(--purple);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .job-items li strong {
+    color: var(--text);
+    font-weight: 500;
+  }
+
+  .metric {
+    display: inline;
+    color: var(--purple);
+    font-weight: 600;
+    font-family: 'Inter', Arial, sans-serif;
+  }
+
+  /* ── 教育经历 ── */
+  .edu-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0;
+    border-bottom: 0.5px solid var(--border);
+    gap: 12px;
+  }
+  .edu-row:last-child { border-bottom: none; }
+
+  .edu-school {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+  }
+
+  .edu-degree {
+    font-size: 13px;
+    color: var(--text-sub);
+    margin-top: 2px;
+  }
+
+  .edu-period {
+    font-size: 12px;
+    color: var(--text-dim);
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-family: 'Inter', Arial, sans-serif;
+  }
+
+  /* ── 技能 ── */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .skill-group {}
+
+  .skill-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 5px;
+    letter-spacing: 0.04em;
+  }
+
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .skill-tag {
+    font-size: 12px;
+    padding: 3px 9px;
+    border-radius: 3px;
+    background: var(--purple-light);
+    color: var(--purple);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  .skill-tag.gray {
+    background: #F0F1F5;
+    color: var(--text-sub);
+  }
+
+  /* ── 个人优势 ── */
+  .strength-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .strength-card {
+    padding: 12px 14px;
+    background: #F8F8FC;
+    border-radius: 4px;
+    border-left: 2px solid var(--purple);
+  }
+
+  .strength-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+
+  .strength-text {
+    font-size: 12px;
+    color: var(--text-sub);
+    line-height: 1.6;
+  }
+
+  /* ── 分割线 ── */
+  .divider {
+    height: 0.5px;
+    background: var(--border);
+    margin: 24px 0;
+  }
+
+  /* ── 打印优化 ── */
+  @media print {
+    body { background: #fff; font-size: 13px; }
+    .page {
+      max-width: 100%;
+      margin: 0;
+      box-shadow: none;
+      border-radius: 0;
+    }
+    .section { page-break-inside: avoid; }
+    .job { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-left">
+      <div class="name">王雨桐</div>
+      <div class="title">User Experience Designer</div>
+      <div class="tagline">
+        拥有「从0到1打造增长引擎」与「在1到N复杂体系中治理体验」的双重经验<br>
+        以系统化思维与全链路视角，在不确定性中定义问题、构建秩序、驱动落地
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="contact-item">📱 186 5710 1118</div>
+      <div class="contact-item">✉️ 414801002@qq.com</div>
+      <div class="contact-item"><a href="https://emily-wyt.github.io/0616-portfolio/" target="_blank">🔗 在线作品集</a></div>
+    </div>
+  </div>
+
+  <!-- HIGHLIGHTS -->
+  <div class="highlights">
+    <div class="hl-item">
+      <div class="hl-val">120万+</div>
+      <div class="hl-label">AI产品全球用户（0→1主导设计）</div>
+    </div>
+    <div class="hl-item">
+      <div class="hl-val">60万+</div>
+      <div class="hl-label">官网独立访客（4个月）</div>
+    </div>
+    <div class="hl-item">
+      <div class="hl-val">115+</div>
+      <div class="hl-label">PC组件库从0到1</div>
+    </div>
+    <div class="hl-item">
+      <div class="hl-val">46</div>
+      <div class="hl-label">京东半年独立承接需求</div>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+
+    <!-- 个人优势 -->
+    <div class="section">
+      <div class="section-title">核心优势</div>
+      <div class="strength-grid">
+        <div class="strength-card">
+          <div class="strength-title">系统构建与业务增长</div>
+          <div class="strength-text">通过设计系统建设与数据驱动设计，规模化解决体验一致性与团队协同问题，直接对用户增长及核心业务指标负责</div>
+        </div>
+        <div class="strength-card">
+          <div class="strength-title">复杂业务与深度协同</div>
+          <div class="strength-text">具备出色的业务理解与抽象能力，能快速切入高复杂度领域，在模糊需求中梳理逻辑，推动产品、研发等多角色高效对齐</div>
+        </div>
+        <div class="strength-card">
+          <div class="strength-title">全链路 Owner 精神</div>
+          <div class="strength-text">拥有从产品体验设计、官网获客引擎搭建到品牌塑造的完整实践，始终以业务终局为目标确保设计价值贯穿用户旅程</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 工作经历 -->
+    <div class="section">
+      <div class="section-title">工作经历</div>
+
+      <!-- 京东 -->
+      <div class="job">
+        <div class="job-header">
+          <div class="job-company">京东零售</div>
+          <div class="job-period">2025.11 — 至今</div>
+        </div>
+        <div class="job-role">用户体验设计师 · PC商详独立负责人 · 跨端体验协同</div>
+        <ul class="job-items">
+          <li>
+            <strong>独立负责复杂垂直零售场景PC端体验治理：</strong>独立负责京东主站、企业购、全球购中政企采购、工业品等高复杂度垂直业务线体验设计，完成阶梯报价、批量采购、管家询价等复杂业务逻辑需求，<span class="metric">半年承接需求46项</span>，主导重点项目4项；同期深度参与APP端16.0设计规范建设，覆盖履约、参数等核心楼层组件。
+          </li>
+          <li>
+            <strong>主导PC商详 V3.x 体验升级：</strong>覆盖企业采购、流量分发、导购能力等核心场景，推动设计方案落地，GMV显著提升；同期从0到1搭建PC端组件库（<span class="metric">115+组件</span>），建立规范体系，赋能多位设计师。
+          </li>
+          <li>
+            <strong>PC+APP双端AI化改版，建立跨端体验协同机制：</strong>PC侧独立负责响应式自适应规范，参与千人千面导购体验框架搭建；APP侧独立完成母婴品类商品信息表达优化需求全程，担任高奢品类送礼服务UI设计师。在双端并行推进中，积累了对PC/APP差异化能力（批量采购等PC独有场景 vs APP先行能力）的深度认知，具备跨端体验对齐的实战判断力；主动使用AI工具快速构建原型验证，重点项目中AI原型demo占比达<span class="metric">75%</span>。
+          </li>
+          <li>
+            <strong>推动跨端体验对齐：</strong>针对PC与APP体验不一致问题，在店铺统一、大图选款等关键用户路径上，通过清晰设计方案与技术沟通推动核心交互跨端一致性收敛。
+          </li>
+        </ul>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- 质变科技 -->
+      <div class="job">
+        <div class="job-header">
+          <div class="job-company">杭州质变科技有限公司 · Powerdrill AI</div>
+          <div class="job-period">2023.01 — 2025.06</div>
+        </div>
+        <div class="job-role">用户体验设计师 · UI主导设计师 &amp; 官网独立搭建者</div>
+        <ul class="job-items">
+          <li>
+            <strong>从0到1构建公司级设计系统，根本性提升团队协同效率：</strong>主导建立原子化设计规范，系统化解耦视觉样式与业务逻辑。主动发起色彩体系重构——将品牌色界面占比从<span class="metric">约50%压缩至5%以下</span>，企业换肤维护效率提升<span class="metric">约70%</span>，品牌换肤交付周期从2周缩短至2天。
+          </li>
+          <li>
+            <strong>主导核心AI产品全链路体验重塑，支撑战略转型与用户增长：</strong>主导产品从ToC工具向ToB专业平台转型的完整体验设计。通过数据分析（96%用户无法提供有效Dataset命名）主动推翻旧交互方案，将Dataset创建流程从5步压缩至2步，用户上传操作负荷降低<span class="metric">57%以上</span>。所构建的专业体验为产品实现<span class="metric">120万+全球用户</span>增长奠定基础。
+          </li>
+          <li>
+            <strong>独立搭建官网增长引擎，直接驱动规模化用户获取：</strong>基于Framer独立完成官网体验设计、前端开发与轻型CMS系统搭建，赋能运营团队敏捷响应热点，上线周期从周级缩短至分钟级，日均发布量<span class="metric">10条以上</span>。官网4个月内成为核心获客渠道，获取超<span class="metric">60万独立访客</span>，其中62%为Google自然搜索流量；核心注册按钮获得超<span class="metric">5,000次点击</span>，直接支撑百万级用户增长目标。
+          </li>
+          <li>
+            <strong>主导Relyt企业级官网信息架构重构：</strong>将官网叙事逻辑从"功能陈述"转型为"客户视角的场景化价值传递"，有效提升目标客户对高复杂度AI数据云产品的认知与信任。
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 教育背景 -->
+    <div class="section">
+      <div class="section-title">教育背景</div>
+      <div class="edu-row">
+        <div>
+          <div class="edu-school">UAL · 伦敦艺术大学 University of the Arts London</div>
+          <div class="edu-degree">硕士 · 插画与视觉媒体 · 英国伦敦</div>
+        </div>
+        <div class="edu-period">2021.10 — 2023.02</div>
+      </div>
+      <div class="edu-row">
+        <div>
+          <div class="edu-school">同济大学 Tongji University</div>
+          <div class="edu-degree">本科 · 产品设计</div>
+        </div>
+        <div class="edu-period">2017.09 — 2021.06</div>
+      </div>
+    </div>
+
+    <!-- 专业技能 -->
+    <div class="section">
+      <div class="section-title">专业技能</div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <div class="skill-label">设计工具</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Framer</span>
+            <span class="skill-tag">After Effects</span>
+            <span class="skill-tag">Illustrator</span>
+            <span class="skill-tag">Photoshop</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-label">AI / 效率工具</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Cursor / Augment Code</span>
+            <span class="skill-tag">Midjourney</span>
+            <span class="skill-tag">Zero AI原型</span>
+            <span class="skill-tag">Claude</span>
+          </div>
+        </div>
+        <div class="skill-group" style="margin-top:10px;">
+          <div class="skill-label">设计能力</div>
+          <div class="skill-tags">
+            <span class="skill-tag gray">全链路UX/UI设计</span>
+            <span class="skill-tag gray">设计系统构建</span>
+            <span class="skill-tag gray">数据驱动决策</span>
+            <span class="skill-tag gray" style="display: none;">响应式设计</span>
+            <span class="skill-tag gray" style="display: none;">用户旅程地图</span>
+          </div>
+        </div>
+        <div class="skill-group" style="margin-top:10px;">
+          <div class="skill-label">前端 / 实现</div>
+          <div class="skill-tags">
+            <span class="skill-tag gray">Framer前端开发</span>
+            <span class="skill-tag gray">CMS系统搭建</span>
+            <span class="skill-tag gray">Vibe Coding</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /body -->
+</div><!-- /page -->
+
+
+</body></html>
