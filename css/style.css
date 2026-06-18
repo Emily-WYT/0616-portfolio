@@ -496,3 +496,26 @@ body {
 }
 
 .dark .content-card-text { color: #9097B8; }
+
+/* ── Mobile Tip ── */
+.mobile-tip {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: #0D0E14;
+  z-index: 9999;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .mobile-tip { display: flex; }
+}
+
+.mobile-tip-icon { font-size: 32px; margin-bottom: 20px; }
+.mobile-tip-title { font-size: 18px; font-weight: 500; color: #fff; margin-bottom: 12px; font-family: 'Noto Sans SC', sans-serif; }
+.mobile-tip-text { font-size: 14px; color: #6A7099; line-height: 1.8; }
+.mobile-tip-url { margin-top: 20px; font-size: 13px; color: var(--purple); font-family: 'Inter', sans-serif; letter-spacing: 0.04em; }
