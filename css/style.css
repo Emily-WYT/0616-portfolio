@@ -497,6 +497,47 @@ body {
 
 .dark .content-card-text { color: #9097B8; }
 
+/* ── V3 关键举措图片容器深色背景 ── */
+#project-v3 .img-row .img-block.half .img-wrap {
+  background: #0D0E14;
+  border-color: var(--border-dark);
+}
+
+/* ── APP未上线方案：缩小+模糊 ── */
+.app-reveal-blur {
+  max-width: 72%;
+  margin: 0 auto;
+}
+.app-reveal-blur img {
+  filter: blur(3px);
+  opacity: 0.65;
+}
+
+/* ── 组件化 AI callout ── */
+.ai-callout {
+  margin-top: 16px;
+  padding: 14px 20px;
+  background: linear-gradient(90deg, rgba(124,92,246,0.14), rgba(124,92,246,0.05));
+  border-left: 2px solid var(--purple);
+  border-radius: 0 8px 8px 0;
+  font-size: 14px;
+  color: var(--purple-light);
+  line-height: 1.75;
+}
+.ai-callout-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--purple);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: var(--purple-dim);
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 /* ── Hero PDF Button ── */
 .hero-pdf-btn {
   display: inline-flex;
