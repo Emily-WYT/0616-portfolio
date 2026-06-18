@@ -110,6 +110,7 @@ body {
 .section.dark { background: var(--dark); }
 .section:not(.dark) { background: #fff; }
 .section:nth-of-type(odd):not(.dark) { background: #F8F8FC; }
+#about { background: #F8F8FC; }
 
 .section-inner {
   max-width: 900px;
